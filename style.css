@@ -53,6 +53,27 @@ header{
 .opa{
     margin-right: 1.250vw;
 }
+#matr{
+    margin-left: 1.875vw;
+    background-color: #a3ffbf;
+    border-radius: 40px;
+    width: 12.891vw;
+    text-align: center;
+    line-height: 1;
+    padding: 1.250vw 2.5vw;
+}
+#matr p{
+    font-weight: 700;
+    color: #051933;
+}
+#nav2{
+    background-color: #093366;
+    margin-top: 2.3vw;
+}
+#nav2dentro{
+    padding-top: 2.3vw;
+    padding-bottom: 2.3vw;
+}
 #bannerTitulo{
     background-color:#051933;
     height: 42.500vw;
