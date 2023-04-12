@@ -26,22 +26,45 @@ header{
     font-weight: bold;
 }
 #nav{
-    padding-top: 2.8vw;
+    padding: 2.8vw 0 0;
+    font-size: 0.859vw;
 }
 #navDentro{
     height: 4.3vw;    
 }
 #imgLogo{
     width: 7.422vw;
+    padding: 0;
 }
 #pesquisar{
     border: solid 1px rgba(255,255,255,.5);
     border-radius: 5px;
     height: 100%;
+    width: 30.938vw;
 }
-input{
-    all: unset;
-    width: auto;
+#pesquisar p{
+    font-size: 1vw;
+    float: left;
+    text-transform: none;
+    font-weight: 500;
+    color: rgba(255,255,255,.5);
+    padding: 1.3vw 0 0 2vw;
+}
+.opa{
+    margin-right: 1.250vw;
+}
+#matr{
+    margin-left: 1.875vw;
+    background-color: #a3ffbf;
+    border-radius: 40px;
+    width: 12.891vw;
+    text-align: center;
+    line-height: 1;
+    padding: 1.250vw 2.5vw;
+}
+#matr p{
+    font-weight: 700;
+    color: #051933;
 }
 #nav2{
     background-color: #093366;
