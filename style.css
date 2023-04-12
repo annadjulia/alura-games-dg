@@ -68,6 +68,7 @@ input{
 }
 .roboto{
     font-family: "Roboto Mono","Courier New",monospace;
+    font-size: 1.5vw;
 }
 #devGame{
     border-radius: 0 0 5px 5px;
@@ -109,16 +110,55 @@ input{
     box-shadow: 0 2px 9px 0 rgb(101 103 122 / 10%);
     border-right: solid 1px #e8eef4;
     border-left: solid 1px #e8eef4;
-    padding: 0 2vw 6.250vw;
-    margin: 4vw 3vw 0;
+    padding: 0 2vw 0;
+    margin: 4vw 3vw 2vw;
 }
-#formProg p{
+#formProg .col p{
     color: #093366;
     font-weight: bold;
     font-size: 1vw;
 }
+.verdinho{
+    color: #00c86f;
+    font-size: 1.250vw;
+}
 #formProg .row .col{
     padding: 0.5vw;
     border: 1px solid #ecf5ff;
-    width: 18%;
+    width: 19%;
+    margin-bottom: 1vw;
+}
+#gamesStart{
+    background-image: url(./media/luz-topo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 45%;
+    padding-top: 14.5vw;
+    background-color: #051933;
+}
+#blocoEsq{
+    height: 5.313vw;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+    top: -17vw;
+    border-bottom-left-radius: 0.333em;
+    border-bottom-right-radius: 0.333em;
+    left: 0;
+    position: absolute;
+}
+.traço{
+    width: 6.641vw;
+    height: 0.781vw;
+    margin: 2vw 0;
+}
+.textoJogos{
+    margin: 1.875vw 0;
+}
+.textoJogos p{
+    color: #e5f1ff;
+    line-height: 2;
+    text-align: justify;
+    font-size: 1.094vw;
+    margin: 0.859vw 0 1.719vw;
 }
